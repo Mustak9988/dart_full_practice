@@ -6,7 +6,7 @@ import 'dart:io';
 void main() {
 
    //single line conditional statement
-
+  print(singleLineFunction("Hello"));
 
    //print enum type variable
   print("Enum type variable: "+typesOfPet(Pet.bird));
@@ -38,10 +38,9 @@ void main() {
 }
 
 
-
 //single line statement
- String SingleS
 
+ dynamic singleLineFunction(String? value)=> value ?? "An error occure";
 
 
 String typesOfPet(Pet pet) {
