@@ -1,0 +1,30 @@
+ # dart variables
+     1. dynamic
+     2. int
+     3. double
+     4. boolean
+     5. string
+     6. var
+     8. input
+     9. output
+     10. constant
+     11. final
+     12. null safety
+     11. num
+     12. late
+
+ # Dart Conditional
+    1. If-Else
+    2. Switch Case
+    3. condition ? expr1 : expr2
+    4. expr1 ?? expr2
+
+
+ operator:
+ cascade
+
+
+
+
+
+
