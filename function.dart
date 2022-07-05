@@ -28,7 +28,8 @@ void main() {
 
 
   //default value parameter
-  defaultValue(null, '3450');
+  //[int s] this is optional positional parameter
+  defaultValueWithOptionalPositionalParameter(null, '3450');
 
 
 
@@ -79,7 +80,7 @@ admissionAnalysis(int? id, [var name, var religion]){
   print("Name: $name");
 }
 
-defaultValue(String? villageName, String villageCode, [int areaCode = 200]){
+defaultValueWithOptionalPositionalParameter(String? villageName, String villageCode, [int areaCode = 200]){
 
   villageName = villageName ?? villageCode;
   print("Village name or code: $villageName ");

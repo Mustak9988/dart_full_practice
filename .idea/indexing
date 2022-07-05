@@ -30,10 +30,18 @@
 # Function
     1. Regular (positional parameter) function like jave, c++, python
     2. Single line function
-    3. Function with return
+    3. Function with return //dart always suggest to declare a return type
     4. Namin parameter function
        //don't need to maintain parameter position
-    5. with required parameter
+    5. With required parameter
+    6. Default parameter and optional positional parameter
+    7. typeDef function
+
+# Collection
+    1. List
+    2. Map
+    3. Queue
+    4. Set
 
 
  operator:
