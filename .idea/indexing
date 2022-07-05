@@ -21,17 +21,19 @@
 
  # Controll Flow
     1. For
-    2.ForEach
-    3.SingleLine For each
-    4.while
-    5.do while
+    2. ForEach
+    3. SingleLine For each
+    4. while
+    5. do while
     6. continue and break
 
 # Function
-    1. Regular function like jave, c++, python
+    1. Regular (positional parameter) function like jave, c++, python
     2. Single line function
     3. Function with return
-    4.
+    4. Namin parameter function
+       //don't need to maintain parameter position
+    5. with required parameter
 
 
  operator:

@@ -1,7 +1,7 @@
 import 'dart:io';
 
 
- enum Pet { dog, cat, bird, lizard }
+enum Pet { dog, cat, bird, lizard }
 
 void main() {
 
@@ -61,8 +61,6 @@ String typesOfPet(Pet pet) {
       break;
   }
 }
-
-
 
 
 

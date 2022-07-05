@@ -3,7 +3,6 @@ import 'dart:io';
 void main() {
 
 
-
   //general for loop
   var nameString = 'I am Aussie';
   for (int i = 0; i < nameString.length; i++) {

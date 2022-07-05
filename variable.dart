@@ -14,6 +14,7 @@ void main() {
  int.parse(digit);
 
 
+
  //three types of print in dart
  /*
   print("String to Int converted digit is "+digit+" And print like java");
@@ -31,7 +32,7 @@ void main() {
 
   //************double variable in dart****************
   const age  = 87.298589878;
-  print("age is ${age.toStringAsFixed(1)}");
+  print("age is ${age.toStringAsFixed(2)}");
   //double to int
   print("Double to int  ${age.toInt()}");
 
@@ -71,7 +72,7 @@ void main() {
 
  //raw string
 
- String rawString = r'Hello people and this is a raw string ';
+ String rawString = r'Hello people and this is a raw string';
  print(rawString);
 
  //constant String
