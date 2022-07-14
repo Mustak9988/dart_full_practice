@@ -3,12 +3,6 @@ import 'dart:io';
 void main() {
 
 
-  //general for loop
-  var nameString = 'I am Aussie';
-  for (int i = 0; i < nameString.length; i++) {
-    print('Index ${i}=> ' + nameString[i]);
-  }
-
   //add data into list
   int length = 1;
   var nameList = [];
@@ -53,5 +47,7 @@ void main() {
     print("  $number \n");
     number++;
   } while (number < 6);
+
+
 
 }

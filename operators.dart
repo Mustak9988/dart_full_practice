@@ -11,7 +11,7 @@ void main() {
 
 // ****************** Unary Operator***************
 
-  print('/n Unary operator');
+  print('\n Unary operator');
   int age = 10;
   age++;
   age += 2;
@@ -39,7 +39,7 @@ void main() {
 
 // ****************** Null aware operator ***************
 //(?.) (??) (??=)
-  print('/n Null aware operator ');
+  print('\n Null aware operator ');
   var number = null;
 
   //if number is null then it will assign 100 into n

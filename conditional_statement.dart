@@ -104,7 +104,8 @@ double? calculator(String operator, double number1, double number2) {
   }
 }
 
-//Although it is dynamic, String is addded as a return type; However, it will work if remove String as a return type.
+//Although it is dynamic, String is added as a return type;
+// However, it will work if remove String as a return type.
 //Ternary operator
 String evenOrOdd(int number) => number % 2 == 0 ? "Even" : "Odd";
 
