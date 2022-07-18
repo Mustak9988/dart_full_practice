@@ -77,9 +77,18 @@ class Teacher extends Department{
 
   int? get privatePhone => _privatePhone;
 
-  set privatePhone(int? value) {
-    _privatePhone = value;
-  }
+  //or
+  // int? get privatePhones{
+  //   return _privatePhone;
+  // }
+
+  // set privatePhone(int? value) {
+  //   _privatePhone = value;
+  // }
+
+  set privatePhone(int? value) => _privatePhone = value;
+
+
 
   @override
   departmentDetails() {

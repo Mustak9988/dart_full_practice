@@ -36,7 +36,7 @@ void main() {
   //double to int
   print("Double to int  ${age.toInt()}");
 
-  //******************int variable 8 bytes************
+  //****************** int variable 8 bytes ************
 
  const peopleAge = 100;
  print("Person age is ${peopleAge}");

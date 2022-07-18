@@ -17,7 +17,7 @@
     1. If-Else
     2. Switch Case
     3. condition ? expr1 : expr2 //ternary operator
-    4. expr1 ?? expr2
+    4. expr1 == null ?? expr2
 
  # Controll Flow
     1. For
@@ -33,7 +33,7 @@
     3. Function with return //dart always suggest to declare a return type
     4. Namin parameter function
        //don't need to maintain parameter position
-    5. With required parameter
+    5. Naming With required parameter
     6. Default value parameter and optional positional parameter
     7. typeDef function
 
@@ -44,6 +44,20 @@
     4. Abstruction
     5. Interface
     6. Cascade
+    7. Composition [ Composition is a way to combine simple objects to create complex ones.
+         In Composition, on the other hand, a class contains instances of other classes which bring their own properties and behavior to the containing class.
+         The composition brings flexibility in building Flutter UI. You put together any number of widgets to achieve any desired UI in your app.]
+    8. Mixing -with keyword
+         [A mixin is a class with methods and properties utilized by other classes in Dart. It is a way to reuse code and write code clean. Mixins, in other words,
+         are regular classes from which we can grab methods (or variables) without having to extend them.]
+
+     9. Extension: Extention methods are a way to add functionality to existing libraries.
+
+
+# Exception
+     1. regular exception
+     2. Custom exception
+     3. through Customise exception
 
 
 
