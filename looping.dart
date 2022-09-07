@@ -24,8 +24,8 @@ void main() {
 
 
 
-  //For each in diffrent way
-  for (var x in nameList) print("pirnt list value " + x);
+  //For each in different way
+  for (var x in nameList) print("print list value " + x);
 
 
   //while lops

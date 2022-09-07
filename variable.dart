@@ -6,6 +6,7 @@ const pi = 3.1416;
 
 void main() {
 
+
   print("************* Dart Variables ***************");
 
 //Integer which is 8 bytes
@@ -124,7 +125,7 @@ print(" Var type variable : ${variable} ${variable.runtimeType}");
  //********* Final & Constant *************
 
  /*
- Final is not compile time allocation. That means If I declare a value and this value will not use anymore then compiler will not allocate memory
+ Final is not compile time memory allocation. That means If I declare a value and this value will not use anymore then compiler will not allocate memory
  for this value.
 
  However Const is a compile time constant and during the compile time this value will be assign whether it is used or not.

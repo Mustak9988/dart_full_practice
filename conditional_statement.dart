@@ -40,7 +40,7 @@ void main() {
 
 //single line statement
 
- dynamic singleLineFunction(String? value)=> value ?? "An error occure";
+ dynamic singleLineFunction(String? value)=> value ?? "An error occurred";
 
 
 String typesOfPet(Pet pet) {

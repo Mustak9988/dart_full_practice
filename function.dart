@@ -6,7 +6,6 @@ void main() {
   print(isEvenNumber(121));
 
 
-
   //function with all requirements
   print(positionalAndNameAndRequired("Mostak Khan",id: 1621567042,vName: "North South", group: "Science"));
   //named parameter
@@ -67,7 +66,7 @@ nameAndPositional(int num, {var member1, var member2}) {
 //with required field
 //required field is not possible without named parameter
 //name parameter might be optional
-void purchaseTicket(String? date, {required int phone, var name}) {
+void purchaseTicket( String? date, {required int phone, var name}) {
   print("Journey Date: $date");
   print("Phone Number: $phone");
   print("Name: $name");

@@ -49,8 +49,6 @@ class Department {
   }
 
 
-
-
   departmentDetails(){
     print("Department Name: $departmentName \nTotal Teacher: $totalTeacher\nTotal Phd :$totalPHD \nChairman Name:$chairmanName");
   }
