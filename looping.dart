@@ -2,7 +2,6 @@ import 'dart:io';
 
 void main() {
 
-
   //add data into list
   int length = 1;
   var nameList = [];
@@ -21,7 +20,6 @@ void main() {
 
   var collection = [1, 2, 3];
   collection.forEach(print); // 1 2 3
-
 
 
   //For each in different way

@@ -6,8 +6,7 @@ const pi = 3.1416;
 
 void main() {
 
-
-  print("************* Dart Variables ***************");
+ print("************* Dart Variables ***************");
 
 //Integer which is 8 bytes
   String digit = "12";
@@ -54,7 +53,7 @@ void main() {
 
 
 
-  //*******************string variable 8 bytes*********************
+  //******************* string variable 8 bytes  *********************
   String? b ;
  //This means a equals b, but if b is null then a equals 'hello'.
   b = b ?? 'hello';

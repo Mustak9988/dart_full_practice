@@ -23,7 +23,6 @@ class Student extends University {
   Student(this.studentName, this.sID, this.isEnrolled , num totalStuff, String? semesterName)
       : super(totalStuff, semesterName);
 
-
   @override
   universityDetails() {
     super.universityDetails();
@@ -86,8 +85,6 @@ class Teacher extends Department{
 
   set privatePhone(int? value) => _privatePhone = value;
 
-
-
   @override
   departmentDetails() {
     super.departmentDetails();
@@ -95,8 +92,8 @@ class Teacher extends Department{
 
   }
 
-  
 }
+
 
 
 void main() {
@@ -111,8 +108,5 @@ t1.departmentDetails();
 //accessing private variable
 t1.privatePhone = 121254;
 print("\n\n private variable : ${t1._privatePhone}");
-
-
-
 
 }

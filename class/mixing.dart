@@ -10,7 +10,7 @@ mixin Flying {
   flying() => print("Flying");
 }
 
-class Dog extends Animal with Swimming {}
+class Dog with Swimming {}
 
 class Shark extends Animal with Swimming {}
 
@@ -29,5 +29,5 @@ class Dolphin extends Animal with Swimming {}
 void main(){
   var d = Dog();
   d.swimming();
-  d.breath();
+  //d.breath();
 }

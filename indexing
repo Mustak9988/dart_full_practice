@@ -2,7 +2,7 @@
      1. dynamic
      2. int
      3. double
-     4. boolean
+     4. bool
      5. string
      6. var
      8. input
@@ -49,10 +49,11 @@
          In Composition, on the other hand, a class contains instances of other classes which bring their own properties and behavior to the containing class.
          The composition brings flexibility in building Flutter UI. You put together any number of widgets to achieve any desired UI in your app.]
     8. Mixing -with keyword
-         [A mixin is a class with methods and properties utilized by other classes in Dart. It is a way to reuse code and write code clean. Mixins, in other words,
+         [A mixin is a class with methods and properties utilized by other classes in Dart. It is a way to re-use code and write code clean. Mixins, in other words,
          are regular classes from which we can grab methods (or variables) without having to extend them.]
 
      9. Extension: Extension methods are a way to add functionality to existing libraries.
+     10. Single ton pattern- A class which only single object is possible to create. Multiple is forbidden
 
 
 # Exception
